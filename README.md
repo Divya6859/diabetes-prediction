@@ -1,38 +1,39 @@
 # Diabetes Prediction
 
-**Objective:**  
-Predict whether a patient has diabetes based on medical attributes.
+**Description:**  
+Predict whether a patient has diabetes using Python and Machine Learning models.
+
+**Tech Stack:**  
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn
+
+**Project Overview:**  
+Complete ML workflow on the Pima Indians Diabetes dataset including preprocessing, scaling, model building, evaluation, and predictive system.
+
+**Workflow:**  
+- Data cleaning and exploration  
+- Exploratory Data Analysis (EDA)  
+- Train-test split and feature scaling  
+- Logistic Regression model building and evaluation  
+- Predictive system for new patient data  
+
+**Highlights:**  
+- End-to-end ML workflow  
+- Confusion matrix visualization  
+- Easily test new patient input  
+
+## How to Run Projects
+
+All projects are developed in **Google Colab** and can be run online easily.
+
+1. Clone this repository:  
+```bash
+git clone https://github.com/Divya6859/diabetes-prediction.git
+```
 
 
-## Techniques Used
 
-- Data Cleaning & Exploration  
-- Exploratory Data Analysis (EDA) using Matplotlib & Seaborn  
-- Feature Scaling using `StandardScaler`  
-- Train-Test Split (80/20)  
-
----
-
-## Models Implemented
-
-- Logistic Regression  
-
----
-
-## Model Evaluation
-
-- Accuracy Score  
-- Confusion Matrix  
-- Classification Report  
-- Confusion Matrix Visualization  
-
----
-
-## Predictive System
-
-Sample predictions on new patient data using the trained Logistic Regression model:
-
-```python
-sample1 = np.array([[6,148,72,35,0,33.6,0.627,50]])
-sample_scaled = scaler.transform(sample1)
-prediction = model.predict(sample_scaled)
